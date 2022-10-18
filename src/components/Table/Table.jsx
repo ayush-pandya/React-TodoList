@@ -13,7 +13,7 @@ function Table() {
       return task.Completed != true;
     })
     setTask(incompleteTaskList);
-  }, [])
+  }, [task])
   
   function editTask(taskID) {
     setIsEditing(true);
